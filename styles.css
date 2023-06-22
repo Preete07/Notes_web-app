@@ -1,0 +1,64 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image:url('https://i.pinimg.com/originals/63/3d/a2/633da2548acdcc3625a51e5b6ce6bf1d.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-attachment: fixed;
+}
+
+header {
+  background-color:black;
+  color: #9c0101;
+  padding: 20px;
+  font-family: serif;
+  
+}
+h1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+input[type="text"] {
+  padding: 10px;
+  width: 300px;
+  margin-right: 10px;
+}
+
+button {
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+#noteList {
+  padding: 0;
+  list-style-type: none;
+}
+
+.noteItem {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: #ffffff;
+  border: 1px solid #ccc;
+}
+
+.noteItem .noteText {
+  flex-grow: 1;
+}
+
+.noteItem button {
+  margin-left: 10px;
+}
+
+
